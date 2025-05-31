@@ -152,12 +152,21 @@ The system generates comprehensive JSON output with two main sections:
 ```json
 {
   "processing": {
-    "type": "processing_type",
-    "extracted_fields": {...},
-    "anomalies": [...],
-    "key_information": {...}
+    "type": "email_alert",
+    "extracted_fields": {
+      "sender": "john.customer@email.com",
+      "subject": "URGENT: Critical System Failure - Production Down",
+      "urgency": "high",
+      "recipients": [
+        "support@techcorp.com",
+        "manager@techcorp.com"
+      ]
+    },
+    "anomalies": [],
+    "key_information": {}
   }
 }
+
 ```
 
 ## 🔧 Configuration
