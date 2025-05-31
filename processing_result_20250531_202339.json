@@ -1,0 +1,24 @@
+{
+  "classification": {
+    "id": "a9086925-438c-4a07-93af-ed3cc53c59e3",
+    "format": "EMAIL",
+    "intent": "REPORT",
+    "confidence": 0.9,
+    "timestamp": "2025-05-31T20:23:39.149924",
+    "source": "test.eml"
+  },
+  "processing": {
+    "sender": "john.customer@email.com",
+    "subject": "URGENT: Critical System Failure - Production Down",
+    "urgency": "high",
+    "intent": "general",
+    "key_phrases": [],
+    "recipients": [
+      "support@techcorp.com",
+      "manager@techcorp.com"
+    ],
+    "timestamp": null,
+    "llm_analysis": "```json\n{\n  \"intent\": \"Reporting a critical system failure in the production environment and requesting urgent support\",\n  \"action_items\": [\n    \"Investigate the cause of the system failure\",\n    \"Restore the production environment as soon as possible\",\n    \"Estimate the revenue loss and provide a detailed report\"\n  ],\n  \"dates\": [\n    \"Approximately 2:15 PM today (time of system failure)\",\n    \"45 minutes ago (duration of system failure)\"\n  ],\n  \"entities\": [\n    \"Production Web Application (app-prod-01)\",\n    \"HTTP 500 Internal Server Error\",\n    \"Support Team\",\n    \"Manager\",\n    \"Customers\",\n    \"Revenue Loss ($50,000 per hour)\"\n  ]\n}\n```"
+  },
+  "thread_id": "a9086925-438c-4a07-93af-ed3cc53c59e3"
+}

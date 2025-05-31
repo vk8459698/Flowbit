@@ -1,0 +1,29 @@
+{
+  "classification": {
+    "id": "2d38d78d-35e7-4f72-b078-66f6cdc283d9",
+    "format": "JSON",
+    "intent": "INVOICE",
+    "confidence": 0.95,
+    "timestamp": "2025-05-31T20:29:58.804962",
+    "source": "test.json"
+  },
+  "processing": {
+    "type": "json_processing",
+    "fields_count": 13,
+    "structure": "dict",
+    "anomalies": [],
+    "missing_fields": [
+      "id",
+      "amount",
+      "description"
+    ],
+    "extracted_fields": {
+      "invoice_id": "INV-2025-001247",
+      "date": "2025-05-29",
+      "due_date": "2025-06-28",
+      "type": "service_invoice",
+      "status": "pending"
+    }
+  },
+  "thread_id": "2d38d78d-35e7-4f72-b078-66f6cdc283d9"
+}

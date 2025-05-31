@@ -1,0 +1,24 @@
+{
+  "classification": {
+    "id": "b33c1f70-0fee-4058-aebc-ddc776e0971f",
+    "format": "EMAIL",
+    "intent": "REPORT",
+    "confidence": 0.9,
+    "timestamp": "2025-05-31T20:22:19.961440",
+    "source": "test.eml"
+  },
+  "processing": {
+    "sender": "john.customer@email.com",
+    "subject": "URGENT: Critical System Failure - Production Down",
+    "urgency": "high",
+    "intent": "general",
+    "key_phrases": [],
+    "recipients": [
+      "support@techcorp.com",
+      "manager@techcorp.com"
+    ],
+    "timestamp": null,
+    "llm_analysis": "```json\n{\n  \"intent\": \"Reporting a critical system failure in the production environment and requesting urgent support to resolve the issue.\",\n  \"action_items\": [\n    \"Resolve the system failure to restore the production environment\",\n    \"Investigate the root cause of the issue\",\n    \"Estimate the revenue loss and provide a detailed report\"\n  ],\n  \"dates\": {\n    \"incident_start_time\": \"2:15 PM (approximate)\",\n    \"email_sent_time\": \"14:30:22 +0530 (Thu, 29 May 2025)\"\n  },\n  \"entities\": [\n    \"john.customer@email.com\",\n    \"support@techcorp.com\",\n    \"manager@techcorp.com\",\n    \"app-prod-01 (Production Web Application)\",\n    \"HTTP 500 Internal Server Error\"\n  ]\n}\n```"
+  },
+  "thread_id": "b33c1f70-0fee-4058-aebc-ddc776e0971f"
+}

@@ -1,0 +1,128 @@
+{
+  "invoice_id": "INV-2025-001247",
+  "date": "2025-05-29",
+  "due_date": "2025-06-28",
+  "type": "service_invoice",
+  "status": "pending",
+  "vendor": {
+    "company_name": "CloudTech Solutions Pvt Ltd",
+    "address": {
+      "street": "42 Tech Park Avenue",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "postal_code": "560001",
+      "country": "India"
+    },
+    "contact": {
+      "email": "billing@cloudtech.in",
+      "phone": "+91-80-4567-8900",
+      "website": "www.cloudtech.in"
+    },
+    "tax_info": {
+      "gst_number": "29ABCDE1234F1Z5",
+      "pan": "ABCDE1234F"
+    }
+  },
+  "customer": {
+    "company_name": "Digital Innovations Ltd",
+    "address": {
+      "street": "15 Business District",
+      "city": "Mumbai",
+      "state": "Maharashtra", 
+      "postal_code": "400001",
+      "country": "India"
+    },
+    "contact": {
+      "email": "accounts@digitalinnovations.com",
+      "phone": "+91-22-9876-5432"
+    },
+    "customer_id": "CUST-2024-0089"
+  },
+  "line_items": [
+    {
+      "item_id": "SRV-001",
+      "description": "Cloud Infrastructure Management Services",
+      "category": "managed_services",
+      "quantity": 1,
+      "unit": "month",
+      "unit_price": 45000.00,
+      "discount_percent": 10,
+      "discount_amount": 4500.00,
+      "subtotal": 40500.00,
+      "tax_rate": 18,
+      "tax_amount": 7290.00,
+      "total": 47790.00
+    },
+    {
+      "item_id": "SRV-002", 
+      "description": "24/7 Technical Support Premium",
+      "category": "support_services",
+      "quantity": 1,
+      "unit": "month",
+      "unit_price": 25000.00,
+      "discount_percent": 5,
+      "discount_amount": 1250.00,
+      "subtotal": 23750.00,
+      "tax_rate": 18,
+      "tax_amount": 4275.00,
+      "total": 28025.00
+    },
+    {
+      "item_id": "SRV-003",
+      "description": "Security Monitoring & Compliance",
+      "category": "security_services", 
+      "quantity": 1,
+      "unit": "month",
+      "unit_price": 18000.00,
+      "discount_percent": 0,
+      "discount_amount": 0.00,
+      "subtotal": 18000.00,
+      "tax_rate": 18,
+      "tax_amount": 3240.00,
+      "total": 21240.00
+    }
+  ],
+  "financial_summary": {
+    "subtotal": 82250.00,
+    "total_discount": 5750.00,
+    "taxable_amount": 82250.00,
+    "total_tax": 14805.00,
+    "grand_total": 97055.00,
+    "currency": "INR",
+    "payment_terms": "Net 30 days"
+  },
+  "payment_info": {
+    "bank_details": {
+      "bank_name": "State Bank of India",
+      "account_number": "12345678901",
+      "ifsc_code": "SBIN0000123",
+      "account_holder": "CloudTech Solutions Pvt Ltd"
+    },
+    "accepted_methods": ["bank_transfer", "cheque", "online_payment"],
+    "late_fee": "2% per month on overdue amount"
+  },
+  "additional_details": {
+    "purchase_order": "PO-2025-0156",
+    "project_reference": "PROJ-CLOUD-2025",
+    "billing_period": "May 2025",
+    "service_start_date": "2025-05-01",
+    "service_end_date": "2025-05-31",
+    "contract_reference": "CONTRACT-2024-089",
+    "invoice_notes": "Monthly recurring charges for cloud infrastructure services as per signed agreement dated 2024-12-15"
+  },
+  "compliance": {
+    "tax_compliance": true,
+    "gst_applicable": true,
+    "reverse_charge": false,
+    "place_of_supply": "Maharashtra",
+    "invoice_type": "B2B"
+  },
+  "metadata": {
+    "created_by": "billing_system",
+    "created_timestamp": "2025-05-29T09:30:00Z",
+    "last_modified": "2025-05-29T09:30:00Z",
+    "version": "1.0",
+    "processing_status": "generated",
+    "approval_required": false
+  }
+}

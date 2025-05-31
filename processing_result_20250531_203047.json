@@ -1,0 +1,17 @@
+{
+  "classification": {
+    "id": "312d950c-0daf-4eda-adb4-7c666b531939",
+    "format": "PDF",
+    "intent": "REPORT",
+    "confidence": 0.9,
+    "timestamp": "2025-05-31T20:30:47.628774",
+    "source": "test.pdf"
+  },
+  "processing": {
+    "type": "pdf_processing",
+    "text_length": 4671,
+    "pages_estimated": 2,
+    "content_preview": "Vivek Kumar +91-8757663844\nRoll No.:220101114 vivek.cse22@iitg.ac.in\nB.Tech - Computer Science and Engineering vk8459698@gmail.com\nIndian Institute Of Technology, Guwahati linkedin |Github |Codeforces..."
+  },
+  "thread_id": "312d950c-0daf-4eda-adb4-7c666b531939"
+}
