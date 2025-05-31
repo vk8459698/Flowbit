@@ -14,7 +14,7 @@ import argparse
 import sys
 
 # Initialize Groq client with API key
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "YOUR_API_KEY"
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 # Enums for classification
